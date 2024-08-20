@@ -1,199 +1,143 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- FIM DO GOOGLE FONTS -->
-    <!-- BOOTSTRAP ICONS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- FIM DO BOOTSTRAP ICONS -->
+    <title>Portfólio da Ana Grazi</title>
+
+    <!-- box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css-->
     <link rel="stylesheet" href="style.css">
-    <title>Portfólio</title>
 </head>
+
 
 <body>
 
-    <header>
-        <div class="interface">
-            <div class="logo">
-                <a href="#">
-                    <img src="img/plat (1).png" alt="">
-                </a>
-            </div>
-            <!--logo-->
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfólio</a>
 
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Projetos</a></li>
-                </ul>
-            </nav>
+        <i class='bx bx-menu' id="menu-icon"></i>
 
-            <div class="btn-contato">
-                <a href="#">
-                    <button>Contato</button>
-                </a>
-            </div>
-            <!--btn-conato-->
-        </div>
-        <!--interface-->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contato">Contato</a>
+        </nav>
     </header>
 
-    <main>
-        <section class="topo-do-site">
-            <div class="interface">
-                <div class="content-wrapper">
-                    <div class="txt-topo-site">
-                        <h1>Bem vindos ao portfólio da Ana Graziele. Espero que gostem. Fiz com todo carinho do mundo esse belo trabalho</h1>
-                        <p>Lindes do meu coração. Saibam que vocês são muito importantes para o meu lindo coração.</p>
-
-                        <div class="btn-contato">
-                            <a href="#">
-                                <button>Entre em contato</button>
-                            </a>
-                        </div>
-                    </div>
-                    <!--txt-topo-site-->
-                    <div class="img-topo-site">
-                        <img src="img/harri.potter.presta (1).png" alt="">
-                    </div>
-                    <!--img-topo-site-->
-                </div>
-                <!--content-wrapper-->
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, como vocês estão?</h3>
+            <h1>Eu sou a Ana Graziele</h1>
+            <h3>Eu sou do curso de <span> Informática.</span></h3>
+            <p>Sou aluna do curso de Informática no IFMA, campus Açailândia. Neste portfólio, você encontrará informações detalhadas sobre minha formação e competências.</p>
+            <div class="social-media">
+                <a href="https://wa.me/5599991613545"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href=" https://x.com/ana_graziele_as?s=08"><i class='bx bxl-twitter'></i></a>
             </div>
-            <!--interface-->
-        </section>
-        <!--topo-do-site-->
+            <a href="#" class="btn">AG</a>
+        </div>
 
-        <section class="Especialidades">
-            <div class="interface">
-                <h2 class="titulo">Minhas especialidades</h2>
+        <div class="home-img">
+            <img src="img/logo.hp-removebg-preview_resized.png" alt="">
+        </div>
+    </section>
 
-                <div class="especialidades-flex">
-                    <div class="especialidades-box">
-                        <i class="bi bi-code-square"></i>
-                        <h3>Website</h3>
-                        <p>Aqui é onde ficará meu lindo website</p>
-                    </div>
-                    <!--especialidades-box-->
-                    <div class="especialidades-box">
-                        <i class="bi bi-cart2"></i>
-                        <h3>Loja Online</h3>
-                        <p>Aqui é onde ficará linda lojinha da Grazi</p>
-                    </div>
-                    <!--especialidades-box-->
-                    <div class="especialidades-box">
-                        <i class="bi bi-camera-reels"></i>
-                        <h3>Blog</h3>
-                        <p>Aqui será o meu maravilhoso blog</p>
-                    </div>
-                    <!--especialidades-box-->
-                </div>
-                <!--especialidades-flex-->
+    <section class="sobre" id="sobre">
+        <div class="sobre-img">
+            <img src="img/minha_linda_foto-removebg-preview (1).png" alt="">
+        </div>
+
+        <div class="sobre-content">
+            <h2 class="heading">Sobre <span>mim</span></h2>
+            <h3>Sou do curso de informática</h3>
+            <p>Meu nome é Ana Graziele e tenho 16 anos. Atualmente, estou cursando o segundo ano de Informática no IFMA. Sou uma pessoa extrovertida e comunicativa, com uma forte inclinação para a competitividade. Tenho grande interesse por culinária e sou
+                apaixonada por leitura, especialmente sagas como Harry Potter e Percy Jackson. Estou sempre em busca de atingir meus objetivos e me dedico a apoiar as pessoas de quem gosto, oferecendo ajuda sempre que possível.</p>
+            <a href="#" class="btn">Leia mais</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="heading">Minhas <span>habilidades</span></h2>
+
+        <div class="habilidades-container">
+            <div class="habilidades-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Receptiva</h3>
+                <p>Possuo grande facilidade em socializar e adaptar-me a mudanças. Sempre procuro ser receptiva e oferecer auxílio aos outros.</p>
+                <a href="#" class="btn">Leia mais</a>
             </div>
-            <!--interface-->
-        </section>
-        <!--Especialidades-->
-        <section class="sobre">
-            <div class="interface">
-                <div class="flex">
-                    <div class="img-sobre">
-                        <img src="img/minha_linda_foto-removebg-preview.png" alt="">
-                    </div>
-                    <div class="txt-sobre">
-                        <h2>Olá, belas pessoas. <span>Me chamo Ana Graziele.</span></h2>
-                        <p>Sou aluna do IFMA, e...</p>
-                        <p>hablarei horrores aqui dps</p>
-                        <div class="btn-social">
-                            <a href="https://wa.me/5599991613545" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
-                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                            <a href=" https://x.com/ana_graziele_as?s=08 "><button><i class="bi bi-twitter-x"></i></button></a>
-                            <a href="https://www.tiktok.com/@ana.graziele_?_t=8ngEnBw7rGA&_r=1"><button><i class="bi bi-tiktok"></i></i></button></a>
-                        </div>
-                        <!--btn-social-->
-                    </div>
-                    <!--flex-->
-                </div>
-                <!--interface-->
-        </section>
-        <!--sobre-->
 
-        <section class="portfólio">
-            <div class="interface">
-                <h2 class="titulo">Meu portfólio</h2>
-                <div class="flex">
-                    <div class="img-port" style="background-image: url(img/medo-port.png);">
-                        <div class="overlay">Projeto 1</div>
-                    </div>
-                    <div class="img-port" style="background-image: url(img/ansie.port.png);">
-                        <div class="overlay">Projeto 2</div>
-                    </div>
-                    <div class="img-port" style="background-image: url(img/njo-por.png);">
-                        <div class="overlay">Projeto 3</div>
-                    </div>
-                </div>
-                <!--flex-->
+            <div class="habilidades-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Companheirismo</h3>
+                <p>Estou sempre disposta a fazer o máximo pelas pessoas com quem me importo, priorizando o bem-estar delas e garantindo que se sintam confortáveis.</p>
+                <a href="#" class="btn">Leia mais</a>
             </div>
-            <!--interface-->
-        </section>
-        <!--portfólio-->
 
-        <section class="formulário">
-            <div class="interface">
-                <h2 class="título">FALA COMIGO</h2>
-
-                <form action="https://api.staticforms.xyz/submit" method="post">
-                    <label>Nome</label>
-                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
-                    <label>Email</label>
-                    <input type="email" name="email" placeholder="Digite seu email" autocapitalize="off" required>
-                    <label>Mensagem</label>
-                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
-                    <button type="submit" class="btn-enviar">Enviar</button>
-
-                    <input type="hidden" name="accessKey" value="e2c63ca6-5eb9-49d7-ac8c-9879b60dba62">
-                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
-                </form>
+            <div class="habilidades-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Perseverante</h3>
+                <p>Meu foco está sempre em alcançar meus objetivos. Persistente em meus propósitos, empenho-me ao máximo para realizá-los.</p>
+                <a href="#" class="btn">Leia mais</a>
             </div>
-            <!--interface-->
-        </section>
-        <!--formulário-->
+    </section>
 
-    </main>
-
-    <footer>
-        <div class="interface">
-            <div class="line-footer flex">
-                <div class="logo-footer">
-                    <img src="img/plat (1).png" alt="">
+    <!-- portfólio section design -->
+    <section class="portfólio" id="portfólio">
+        <h2 class="heading">Meus <span>projetos</span></h2>
+        <div class="portfólio-container">
+            <div class="portfólio-box">
+                <img src="img/agr vai (1).jpg" alt="">
+                <div class="portfólio-layer">
+                    <h4>Galeria</h4>
                 </div>
-                <!--logo-fother-->
-                <div class="btn-social">
-                    <a href="https://wa.me/5599991613545" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
-                    <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                    <a href=" https://x.com/ana_graziele_as?s=08 "><button><i class="bi bi-twitter-x"></i></button></a>
-                    <a href="https://www.tiktok.com/@ana.graziele_?_t=8ngEnBw7rGA&_r=1"><button><i class="bi bi-tiktok"></i></i></button></a>
+            </div>
+            <div class="portfólio-box">
+                <img src="img/pjo (1).jpg" alt="">
+                <div class="portfólio-layer">
+                    <h4>Outro projetinho</h4>
                 </div>
-                <!--btn-social-->
             </div>
-            <!--line-footer-->
+        </div>
+    </section>
 
-            <div class="line-footer borda">
-                <p><i class="bi bi-envelope-at"></i>
-                    <a href="mailto:anagraziele@acad.ifma.edu.br">anagraziele@acad.ifma.edu.br</a>
-                </p>
+    <!-- contact section designe -->
+    <section class="contato" id="contato">
+        <h2 class="heading">Entre em contato <span>comigo!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nome completo">
+                <input type="email" placeholder="Endereço de email">
             </div>
-            <!--line-footer-->
+            <div class="input-box">
+                <input type="tel" placeholder="Número de celular">
+                <input type="text" placeholder="Assunto do email">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+            <input type="submit" value="Enviar mensagem" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Codehal | A11 Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
-
+    <!-- custom js-->
+    <script src="index.js"></script>
 </body>
-
-</html>
